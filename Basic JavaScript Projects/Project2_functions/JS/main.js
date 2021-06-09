@@ -9,3 +9,9 @@ function boop_Change() {
     doopy += " Doopy Boop";
     document.getElementById("boop").innerHTML = doopy;
 } // this function concatenates Boopy Doopy and Doopy Boop into one string and displays it when the <p> element is clicked on.
+
+function red_Text() {
+    var red = "Click me to see me change!";
+    red = red.fontcolor("red");
+    document.getElementById("blackToRed").innerHTML = red;
+}
