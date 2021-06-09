@@ -24,3 +24,8 @@ document.write(personC);
 document.write(personD); // these are printing all said variables onto the page
 
 document.write(4+4); // this is a statement with an expression. it's adding 4 and 4 and will show 8 on the page.
+
+function surpriseChange () {
+    document.getElementById("alter").innerHTML= ("SURPRISE!!"); //Event onMouseOver to change the <p> element
+                                                                // to SURPRISE!!
+}
