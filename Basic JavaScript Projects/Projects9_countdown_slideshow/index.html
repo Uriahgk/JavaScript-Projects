@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Countdown/Slideshow</title>
+        <script src="./JS/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="./CSS/main.css">
+    </head>
+    <body>
+        
+        <!-- COUNTDOWN (COMMENTED OUT FOR NOW)-->
+        <p>How many seconds would you like to set your alarm for?</p>
+        <input id="seconds" value="">
+        <button onclick="countdown()">Click here</button>
+        <p id="timer"></p>
+        <!-- END COUNTDOWN -->
+
+        <!-- SLIDESHOW -->
+        <h1>Click the dots below to view a random slideshow!</h1>
+        <div class="container">
+
+            <!-- IMG 1 -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="./Images/img_1.jpg" alt="" style="width:100%">
+                <div class="text">Elden Ring 1</div>
+            </div>
+            <!-- END IMG 1 -->
+
+            <!-- IMG 2 -->
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="./Images/img_2.jpg" alt="" style="width:100%">
+                <div class="text">Elden Ring 2</div>
+            </div>
+            <!-- END IMG 2 -->
+
+            <!-- IMG 3 -->
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./Images/img_3.jpg" alt="" style="width:100%">
+                <div class="text">Elden Ring 3</div>
+            </div>
+            <!-- END IMG 3 -->
+
+            <!-- NEXT AND PREV BUTTONS -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+            <!-- END BUTTONS -->
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>
