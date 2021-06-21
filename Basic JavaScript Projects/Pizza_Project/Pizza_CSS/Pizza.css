@@ -11,6 +11,7 @@ h1 {
 h3 {
     font-family: sans-serif, Arial, Helvetica;
     color: rgb(22, 10, 130);
+    text-align: center;
 }
 
 div {
@@ -35,7 +36,6 @@ div {
 #frmMenu{
     width: 600px;
     height: 200px;
-    text-align: center;
 }
 
 .left {
